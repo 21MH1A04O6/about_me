@@ -1,0 +1,99 @@
+
+
+.container{
+    background-color: rgba(245,217,206,255);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    justify-self: center;
+    flex-wrap: nowrap;
+    text-align: left;
+}
+
+.footer{
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:row;
+    justify-self: center;
+    height:auto;
+}
+
+
+
+.right{
+    padding: 50px;
+    text-align: center;
+}
+
+.left{
+    padding:50px;
+    text-align: center;
+  }
+.para{
+    color :#795ad1;
+    font: small-caps bold ;
+    font-weight: bold;
+    font-size:25px;
+}
+.para1{
+    color : rgb(255, 255, 255);
+    font-family: "Audiowide", sans-serif;
+    -webkit-text-stroke: 1px black;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.para2{
+    color : rgb(0, 0, 0);
+    font: small-caps bold ;
+    font-weight: lighter;
+    font-size:larger;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.para3{
+    color: #5acfc6;
+    font-family: "Audiowide", sans-serif;
+    font-weight: bolder;
+}
+img{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    border-radius: 250px 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.end{
+    background-image: url(https://img.freepik.com/free-photo/dark-abstract-background_1048-1920.jpg?w=740&t=st=1686655784~exp=1686656384~hmac=c709291f873ce8ce6232ada1dd08766a4e31023d0d72bf80a58438bfb44f8a6c);
+    display: flex;
+    flex-direction:column;
+    height:auto;
+
+}
+
+.end1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    justify-self: center;
+    padding: 50px;
+}
+.end2{
+    display: flex;
+    flex-direction: row;
+}
+
+.button{
+    display:flex;
+    flex-direction: row;
+}
